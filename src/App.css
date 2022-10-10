@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+
+
+
+
+.App {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logo {
+  height: 40px;
+  align-self: center;
+  padding-right: 1.6rem;
+}
+
+
+.balance-container {
+  width: 90vw;
+  max-width: 25rem;
+  height: 6rem;
+  background-color: #EC755D;
+  border-radius: 20px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+ 
+}
+
+.h1-balance {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.h1-main {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #382314;
+  padding-left: 1rem;
+}
+
+.h4-balance {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: aliceblue;
+}
+
+.text-container {
+  align-self: center;
+  padding-left: 1.6rem;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  max-width: 25rem;
+  height: 29rem;
+  background-color: #FFFBF6;
+  border-radius: 20px;
+
+}
+
+.spending-graph {
+  display: flex;
+  justify-content:space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 17rem;
+}
+
+#mon, #tue, #wed, #thu, #fri, #sat, #sun {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  align-self: flex-end;
+}
+
+
+.thin-line {
+  background-color: #F8E9DD;
+  width: 81vw;
+  height: 2px;
+  align-self: center;
+  margin-top: 1rem;
+}
+
+.mon-bar, .tue-bar, .wed-bar, .thu-bar, .fri-bar, .sat-bar, .sun-bar {
+  background-color: #EC755D;
+  max-height: 15rem;
+  width: 30px;
+  border-radius: 3px;
+  align-self: center;
+}
+
+.today {
+  background-color: #76B5BC;
+  height: 8rem;
+  width: 30px;
+  border-radius: 3px;
+  align-self: center;
+}
+
+.spending-graph th { 
+  font-weight: normal;
+  color: #92857A;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  margin-top: 0.5rem;
+  justify-self: flex-end;
+}
+
+.total-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: flex-end;
+}
+
+.this-month-total h4 {
+  font-weight: normal;
+  color: #92857A;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  margin-top: 1rem;
+}
+
+.this-month-total-percent {
+  text-align: end;
+}
+.this-month-total h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: -0.5rem;
+}
+
+.this-month-total-percent h4 {
+  font-weight: normal;
+  color: #92857A;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+
+.this-month-total-percent h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+
+.amount {
+  display: none;
+  background-color: #382314;
+  color: #FFFBF6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  height: 20px;
+  width: 40px;
+  border-radius: 5px;
+  margin-bottom: 0.3rem;
+  padding-top: 0.4rem;
+}
+
+tr:hover .amount {
+  display: initial;
+}
+
+
