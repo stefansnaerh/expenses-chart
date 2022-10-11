@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/stefansnaerh/expenses-chart]
+- Live Site URL: [https://stefansnaerh.github.io/expenses-chart]
 
 ## My process
 
@@ -69,5 +69,4 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/ also always comes in han
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@stefansnaerh](https://www.frontendmentor.io/profile/stefansnaerh)
