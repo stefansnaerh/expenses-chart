@@ -44,8 +44,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/stefansnaerh/expenses-chart)
-- Live Site URL:(https://stefansnaerh.github.io/expenses-chart)
+- Solution URL: [https://github.com/stefansnaerh/expenses-chart]
+- Live Site URL: [https://stefansnaerh.github.io/expenses-chart]
 
 ## My process
 
