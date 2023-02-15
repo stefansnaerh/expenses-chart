@@ -1,5 +1,7 @@
 import React from "react";
 
+import logo from "../images/logo.svg"
+
 
 
 const Balance = () => {
@@ -9,7 +11,7 @@ const Balance = () => {
                 <h4 className="h4-balance">My balance</h4>
                 <h1 className="h1-balance" aria-label="921.48 dollars">$921.48</h1>
             </div>
-            <img alt="logo" className="logo" src="../images/logo.svg" aria-label="logo"></img>
+            <img alt="logo" className="logo" src={logo} aria-label="logo"></img>
         </section>
     )
 }
